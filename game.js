@@ -61,17 +61,17 @@ let score = 0;
 // plus.onmouseleave = () => {
 //     plus.style.transform = "scale(1)";
 // }
-// plus.onclick = () => {
-//     if (num1 + num2 == num3){
-//         randomNum()
-//         clearInterval(changeTime)
-//         startTimer()
-//         score ++;
-//         localStorage.setItem("score",score)
-//     }else{
-//         window.open("gameover.html", "_self")
-//     }
-// };
+plus.onclick = () => {
+    if (num1 + num2 == num3){
+        randomNum()
+        clearInterval(changeTime)
+        startTimer()
+        score ++;
+        localStorage.setItem("score",score)
+    }else{
+        window.open("gameover.html", "_self")
+    }
+};
 
 minus.onclick = () => {
     if (num1 - num2 == num3){
