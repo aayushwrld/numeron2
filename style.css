@@ -106,3 +106,15 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
+
+.ops{
+    transition: transform 0.2s;
+}
+
+.ops:hover {
+    transform: scale(0.9);
+}
+
+.ops:active {
+    transform: scale(0.7);
+}
